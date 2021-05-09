@@ -16,4 +16,10 @@ https://bootswatch.com/materia/
 
 ### Data Source
 The figures and data used on the website were created through the following project: </br>
-https://github.com/madisonfisher/python-api-challenge
+https://github.com/madisonfisher/python-api-challenge </br>
+</br>
+
+Logo for the nav bar: </br>
+'https://www.freepik.com/vectors/vintage'>Vintage vector created by evasplace - www.freepik.com
+
+
