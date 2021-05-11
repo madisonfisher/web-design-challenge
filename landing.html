@@ -53,16 +53,30 @@
       </nav>
 
     <div class="container">
+    </br>
         <div class="row">
-            <div class="col-md-7 col-sm-12">
+            <div class="alert alert-dismissible alert-success">
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                <strong>Welcome to Latitude!</strong> This is a website designed to analyze weather data based on latitude.
+              </div>
+            <div class="col-md-6 col-sm-12">
                 <div class="card">
-                    <h2 class="card-header">Summary of Latitude Visualizations</h2>
+                    <h2 class="card-header">Latitude Visualizations</h2>
                     <div class="card-body">
-                      <p class="card-text text-primary">With supporting text below as a natural lead-in to additional content.</p>
-                    </div>
+                        <p class="card-text text-primary">
+                          This website is designed to compare weather data based on latitude. The four (4) types of weather data analyzed and compared on
+                          this website are Max Temperature (Fahrenheit), Humidity (%), Cloudiness (%), Wind Speed (mph).
+                      </p>
+                      <p class="card-text text-primary">
+                        The data was collected by creating a random list of cities using citypy based on randomized latitudes and longitudes. 
+                        This city list was then used with the Open Weather Map API to collect city weather data on 2021-04-19. 
+                        The data was then processed with Matplotlib and Pandas. The raw data and visualizations can be found throughout this site.
+                    </p>    
+                </div>
                 </div>
             </div>
-            <div class="col-md-5 col-sm-12">
+            <!--made the visualizations section bigger for the landing page-->
+            <div class="col-md-6 col-sm-12">
                 <div class="card">
                     <h2 class="card-header">Visualizations</h2>
                     <div class="card-body">
@@ -70,13 +84,13 @@
                             <div class="col">
                                 <h6 class="text-primary">Max Temperature</h6>
                                 <a target="_blank" href="#">
-                                    <img src="visualizations/temp_latitude.png" width="170" height="113" alt="Latitude vs. Max Temperature"/>
+                                    <img src="visualizations/temp_latitude.png" width=100% alt="Latitude vs. Max Temperature"/>
                                 </a>
                             </div>
                             <div class="col">
                                 <h6 class="text-primary">Humidity</h6>
                                 <a target="_blank" href="#">
-                                    <img src="visualizations/humid_latitude.png" width="170" height="113" alt="Latitude vs. Humidity"/>
+                                    <img src="visualizations/humid_latitude.png" width=100% alt="Latitude vs. Humidity"/>
                                 </a>
                             </div>
                         </div>
@@ -84,13 +98,13 @@
                             <div class="col">
                                 <h6 class="text-primary">Cloudiness</h6>
                                 <a target="_blank" href="#">
-                                    <img src="visualizations/cloud_latitude.png" width="170" height="113" alt="Latitude vs. Cloudiness"/>
+                                    <img src="visualizations/cloud_latitude.png" width=100% alt="Latitude vs. Cloudiness"/>
                                 </a>
                             </div>
                             <div class="col">
                                 <h6 class="text-primary">Wind Speed</h6>
                                 <a target="_blank" href="#">
-                                    <img src="visualizations/wind_latitude.png" width="170" height="113" alt="Latitude vs. Wind Speed"/>
+                                    <img src="visualizations/wind_latitude.png" width=100% alt="Latitude vs. Wind Speed"/>
                                 </a>
                             </div>
                         </div>
