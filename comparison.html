@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Latitude Home</title>
+    <title>Latitude Comparison</title>
 
     <!-- Bring in our bootstrap stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
@@ -29,7 +29,7 @@
             <!-- ms to shift it to the right-->
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active">Home
+                <a class="nav-link" href="#">Home
                   <span class="visually-hidden">(current)</span>
                 </a>
               </li>
@@ -43,7 +43,7 @@
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Comparison</a>
+                <a class="nav-link active">Comparison</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Data</a>
@@ -55,54 +55,36 @@
     <div class="container">
     </br>
         <div class="row">
-            <div class="alert alert-dismissible alert-success">
-                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-                <strong>Welcome to Latitude!</strong> This is a website designed to analyze weather data based on latitude.
-              </div>
-            <div class="col-md-6 col-sm-12">
+            <div class="col">
                 <div class="card">
-                    <h2 class="card-header">Latitude Visualizations</h2>
+                    <h2 class="card-header">Comparison of Latitude to Weather Data:</h2>
                     <div class="card-body">
-                        <p class="card-text text-primary">
-                          This website is designed to compare weather data based on latitude. The four (4) types of weather data analyzed and compared on
-                          this website are Max Temperature (Fahrenheit), Humidity (%), Cloudiness (%), Wind Speed (mph).
-                      </p>
-                      <p class="card-text text-primary">
-                        The data was collected by creating a random list of cities using citypy based on randomized latitudes and longitudes. 
-                        This city list was then used with the Open Weather Map API to collect city weather data on 2021-04-19. 
-                        The data was then processed with Matplotlib and Pandas. The raw data and visualizations can be found throughout this site.
-                    </p>    
-                </div>
-                </div>
-            </div>
-            <!--made the visualizations section bigger for the landing page-->
-            <div class="col-md-6 col-sm-12">
-                <div class="card">
-                    <h2 class="card-header">Visualizations</h2>
-                    <div class="card-body">
+                        Click any visualization for more information.
+                    </br>
+                </br>
                         <div class="row">
-                            <div class="col">
-                                <h6 class="text-primary">Max Temperature</h6>
+                            <div class="col-md-6 col-sm-12">
+                                <h4 class="text-primary">Max Temperature</h4>
                                 <a target="_blank" href="#">
                                     <img src="visualizations/temp_latitude.png" width=100% alt="Latitude vs. Max Temperature"/>
                                 </a>
                             </div>
-                            <div class="col">
-                                <h6 class="text-primary">Humidity</h6>
+                            <div class="col-md-6 col-sm-12">
+                                <h4 class="text-primary">Humidity</h4>
                                 <a target="_blank" href="#">
                                     <img src="visualizations/humid_latitude.png" width=100% alt="Latitude vs. Humidity"/>
                                 </a>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col">
-                                <h6 class="text-primary">Cloudiness</h6>
+                            <div class="col-md-6 col-sm-12">
+                                <h4 class="text-primary">Cloudiness</h4>
                                 <a target="_blank" href="#">
                                     <img src="visualizations/cloud_latitude.png" width=100% alt="Latitude vs. Cloudiness"/>
                                 </a>
                             </div>
-                            <div class="col">
-                                <h6 class="text-primary">Wind Speed</h6>
+                            <div class="col-md-6 col-sm-12">
+                                <h4 class="text-primary">Wind Speed</h4>
                                 <a target="_blank" href="#">
                                     <img src="visualizations/wind_latitude.png" width=100% alt="Latitude vs. Wind Speed"/>
                                 </a>
