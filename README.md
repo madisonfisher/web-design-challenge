@@ -10,16 +10,17 @@ The website contains the following pages:
 - Comparison Page of all figures
 - Data Page
 </br>
+
 ### Theme
 Bootswatch - Materia </br>
 https://bootswatch.com/materia/
 
 ### Data Source
-The figures and data used on the website were created through the following project: </br>
+##### The figures and data used on the website were created through the following project: </br>
 https://github.com/madisonfisher/python-api-challenge </br>
 </br>
 
-Logo for the nav bar: </br>
-'https://www.freepik.com/vectors/vintage'>Vintage vector created by evasplace - www.freepik.com
+##### Logo for the nav bar: </br>
+https://www.freepik.com/vectors/vintage'>Vintage vector created by evasplace - www.freepik.com
 
 
