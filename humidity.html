@@ -15,6 +15,12 @@
 </head>
 
 <body>
+    <!--changing the background color from the theme one-->
+    <style>
+        body {
+            background: linear-gradient(to right, #e0feff 0%, #e3e3e3 75%) !important;
+        }
+    </style>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
             <a class="navbar-brand">
@@ -63,14 +69,14 @@
                         </br>
                         <img src="visualizations/humid_latitude.png" width=100% alt="Latitude vs. Humidity" />
                         <p class="card-text text-primary">
-                            The above plot of Humidity vs. Latitude is analyzing the relationship between 
+                            The above plot of Humidity vs. Latitude is analyzing the relationship between
                             distance from the equator and how humid a city is.
                             When linear regression is applied to the separate hemispheres
                             the r-squared of the Southern Hemisphere (-90-0 Latitude) is 0.09
                             and the r-squared of the Northern Hemisphere (0-90 Latitude) is 0.01.
-                            The low r-squared values for both hemispheres shows that there is not a statistical 
-                            correlation between the humidity of a city and the latitude based on this data set. 
-                            However, the data and figure does suggest that the average humidity 
+                            The low r-squared values for both hemispheres shows that there is not a statistical
+                            correlation between the humidity of a city and the latitude based on this data set.
+                            However, the data and figure does suggest that the average humidity
                             across all cities in the world is above 60%.
                         </p>
                     </div>
