@@ -9,7 +9,9 @@ The website contains the following pages:
 - Visualization for Latitude vs. Wind Speed (mph)
 - Comparison Page of all figures
 - Data Page
-</br>
+
+##### Website Home Page: </br>
+https://madisonfisher.github.io/web-design-challenge/
 
 ### Theme
 Bootswatch - Materia </br>
@@ -18,7 +20,6 @@ https://bootswatch.com/materia/
 ### Data Source
 ##### The figures and data used on the website were created through the following project: </br>
 https://github.com/madisonfisher/python-api-challenge </br>
-</br>
 
 ##### Logo for the nav bar: </br>
 https://www.freepik.com/vectors/vintage'>Vintage vector created by evasplace - www.freepik.com
